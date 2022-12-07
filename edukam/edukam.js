@@ -1,0 +1,1 @@
+alert('Hello there! You are in edukam eletronic bank PT');
