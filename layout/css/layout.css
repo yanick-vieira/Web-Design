@@ -1,0 +1,167 @@
+@charset 'utf-8';
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+}
+.container{
+   width: 700px;
+   height: 900px;
+   margin: auto;
+   position: relative;
+   top: 0px;
+}
+.fix{
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.226);
+}
+header{
+    width: 700px;
+    height: 100px;
+    background-color:#00A6ED;
+    position: relative;
+}
+main{
+    width: 700px;
+    height: 600px;
+    background-color:#00A6ED;
+    position: absolute;
+    top:150px;
+}
+footer{
+    width: 700px;
+    height: 70px;
+    background-color:#00A6ED;
+    position: absolute;
+    bottom: 35px;
+}
+.top1{
+    position: absolute;
+    left: 5%;
+    top: 37%;
+}
+.top2{
+    position: absolute;
+    left: 40%;
+    top: 37%;
+
+}
+.top{
+    width: 100px;
+    padding: 5px;
+    margin-left: 20px;
+    
+}
+
+#search{
+    width: 100px;
+    padding: 5px;
+    border-color:#fff;
+}
+form:hover > #ico{
+    opacity: 15%;
+    position: absolute;
+    left: 80px;
+    transition-duration: 1s;
+}
+
+#btn{
+    width: 100px;
+    padding: 5px;
+}
+form{
+    position: relative;
+}
+#ico{
+    position: absolute;
+    left: 60px;
+    top: 7px;
+    opacity: 50%;
+}
+
+section{
+    width: 200px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    overflow: scroll;
+}
+p{
+    text-align: justify;
+    width: 170px;
+    padding: 10px;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.pic{
+    width: 367px;
+    height: 500px;
+    position: absolute;
+    top: 7.8%;
+    left: 42%;
+}
+aside{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+.pic11{
+    margin-left: 20px;
+}
+
+.bottom{
+    position: relative;
+    top: 25px;
+    left: 310px;
+    margin-right: 23px;
+    text-decoration: none;
+
+}
+.pic1, .pic2{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 170px;
+    height: 150px;
+}
+.picon::before{
+    content: "1️⃣";
+}
+.pictw::before{
+    content: "2️⃣";
+}
+.picth::before{
+    content: "3️⃣";
+}
+.picfo::before{
+    content: "4️⃣";
+}
+
+.piceffect:hover{
+    background-color: #00A6ED;
+    box-shadow: 2px 2px 50px #ccc;
+}
+.piceffect:active{
+    background-color: brown;
+}
+
+.logo{
+    position: relative;
+    height: 100px;
+    width: 600px;
+    margin: auto;
+    top: 0px;
+    left: -95px;
+    
+}
+i{
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    font-size: 30px;
+}

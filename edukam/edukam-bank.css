@@ -33,4 +33,35 @@ a:hover{
 	color: rgb(11, 12, 11);
 	background-color: aliceblue;
 	border: 1px solid black;
+	transition: 1s;
 }
+
+/*Transition*/
+aside{
+	width:100px;
+	height: 100px;
+	background-color: #ccc;
+	margin-top: 333px;
+	margin-left: 33px;
+	border: 1px solid black;
+	transition: 1s;
+	display: none;
+}
+
+#iw{
+	visibility: hidden;
+	
+}
+aside:hover {
+	width: 200px;
+	height: 200px;
+	border-color: red;
+	margin-left: 100px;
+}
+aside:hover #iw{
+	visibility: visible;
+	text-align: center;
+	position: relative;
+	top: 40%;
+}
+/*Transition END*/
