@@ -13,17 +13,18 @@ header{
     margin-top: 40px;
     padding: 5px;
     color: rgba(0, 0, 0, 0.162);
+    height: 220px;
 }
 
 #copy{
-    color: rgba(0, 0, 0, 0.746);
+    color: rgb(0, 0, 0);
     max-width: 450px;
     text-align: justify;
     margin: auto;
 }
 #mail{
     margin-right: 10px;
-    padding-right: 130px;
+    padding-right: 162px;
     
 }
 
@@ -83,6 +84,7 @@ main{
 .funnels:active{
     box-shadow: 0px 0px 0px ; 
     border: 0.1px solid rgba(0, 0, 0, 0.141);
+    
 }
 
 a{
@@ -92,6 +94,7 @@ a{
 }
 .f1{
     background-color: #FF160C;
+    height: 35px;
 }
 .copy2{
     color: #ffffff;
@@ -99,6 +102,7 @@ a{
 
 .f2{
     background-color: #7777771c;
+    height: 35px;
 }
 .copy3{
     color:#ff140cc1;
@@ -106,6 +110,7 @@ a{
 
 .f3{
     background-color: #cfb53b;
+    height: 35px;
 }
 .copy4{
     color:#ffffff;
@@ -198,7 +203,7 @@ footer{
     }
     
     #copy{
-        color: rgba(0, 0, 0, 0.746);
+        color: rgb(0, 0, 0);
         max-width: 380px;
         text-align: justify;
         margin: auto;
