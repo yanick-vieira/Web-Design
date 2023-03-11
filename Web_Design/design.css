@@ -5,32 +5,120 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
+
 header{
     text-align: center;
     width: 800px;
-    box-shadow: 1px 1px 5px;
     margin: auto;
     margin-top: 40px;
     padding: 5px;
     color: rgba(0, 0, 0, 0.162);
 }
+
+#copy{
+    color: rgba(0, 0, 0, 0.746);
+    max-width: 450px;
+    text-align: justify;
+    margin: auto;
+}
+#mail{
+    margin-right: 10px;
+    padding-right: 130px;
+    
+}
+
+#btn{
+    background-color: #FF160C;
+    color: white;
+}
+#btn:active{
+    box-shadow: 0px 0px 0px ; 
+    border: 0.1px solid rgba(0, 0, 0, 0.141);
+}
+
+
+form{
+    margin: 20px;
+    position: relative;
+    left: 5px;
+}
+
+.vsl{
+    width: 500px;
+    height: 400px;
+    position:relative;
+    left: 20%;
+    top: 20px;
+
+}
+
+.mailbtn{
+    padding: 7px 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.439);
+    border: 0.5px;
+}
+
 
 main{
     width: 800px;
     height: 600px;
     margin: auto;
+}
+
+.funnels_pages{
+    text-align: center;
     margin-top: 40px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+    
+}
+
+.funnels{
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 7px ;
+    width: 500px;
+    margin-left: 20%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.439);
+    border: 0.5px;
+}
+.funnels:active{
+    box-shadow: 0px 0px 0px ; 
+    border: 0.1px solid rgba(0, 0, 0, 0.141);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.f1{
+    background-color: #FF160C;
+}
+.copy2{
+    color: #ffffff;
+}
+
+.f2{
+    background-color: #7777771c;
+}
+.copy3{
+    color:#ff140cc1;
+}
+
+.f3{
+    background-color: #cfb53b;
+}
+.copy4{
+    color:#ffffff;
 }
 
 footer{
     text-align: center;
     width: 800px;
-    box-shadow: 1px 1px 5px;
     margin: auto;
     margin-top: 40px;
     padding: 5px;
-    color: rgba(0, 0, 0, 0.162);
+    color: rgba(0, 0, 0, 0.795);
+
 }
 
 
@@ -53,18 +141,33 @@ footer{
         text-align: center;
         width: 600px;
         margin: auto;
-        margin-top: 40px;
         padding: 5px;
         color: rgba(0, 0, 0, 0.454);
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+        
     }
 
     main{
         width: 600px;
         height: 550px;
         margin: auto;
-        margin-top: 40px;
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+    }
+    .vsl{
+        width: 500px;
+        height: 400px;
+        position:relative;
+        left: 10%;
+        top: 20px;
+    
+    }
+
+    .funnels{
+        border: 1px solid black;
+        margin-bottom: 15px;
+        padding: 7px ;
+        width: 500px;
+        margin-left: 10%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.439);
+        border: 0.5px;
     }
 
     footer{
@@ -73,8 +176,8 @@ footer{
         margin: auto;
         margin-top: 40px;
         padding: 10px;
-        color: rgba(0, 0, 0, 0.454);
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+        color: rgba(0, 0, 0, 0.454)
+
     }
 }
 
@@ -84,18 +187,46 @@ footer{
         text-align: center;
         width: 450px;
         margin: auto;
-        margin-top: 40px;
         padding: 5px;
         color: rgba(0, 0, 0, 0.454);
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+
+    }
+
+    #mail{
+        margin-right: 10px;
+        padding-right: 60px;
+    }
+    
+    #copy{
+        color: rgba(0, 0, 0, 0.746);
+        max-width: 380px;
+        text-align: justify;
+        margin: auto;
+    }
+
+    .funnels{
+        border: 1px solid black;
+        margin-bottom: 15px;
+        padding: 7px ;
+        width: 420px;
+        margin-left: 5%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.439);
+        border: 0.5px;
     }
 
     main{
         width: 450px;
         height: 500px;
         margin: auto;
-        margin-top: 40px;
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+
+    }
+    .vsl{
+        width: 420px;
+        height: 350px;
+        position:relative;
+        left: 5%;
+        top: 20px;
+    
     }
 
     footer{
@@ -105,6 +236,5 @@ footer{
         margin-top: 40px;
         padding: 10px;
         color: rgba(0, 0, 0, 0.454);
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
     }
 }
