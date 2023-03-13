@@ -62,7 +62,7 @@ form{
 
 main{
     width: 800px;
-    height: 2000px;
+    height: 2413px;
     margin: auto;
 }
 
@@ -119,10 +119,12 @@ a{
 footer{
     text-align: center;
     width: 800px;
+    height: 370px;
     margin: auto;
-    margin-top: 40px;
     padding: 5px;
     color: rgba(0, 0, 0, 0.795);
+    background-color: #777777a5;
+    position: relative;
 
 }
 
@@ -144,7 +146,7 @@ footer{
 }
 
 .content{
-    border: 1px solid #00000057;
+    border: 0px solid #00000057;
     margin-top: 100px;
 }
 
@@ -246,13 +248,56 @@ footer{
 }
 
 
+.space{
+    height: 950px;
+    padding-top: 35px;
+    background-color: #ff140c22;
+    margin-top: 60px;
+}
 
+.copi3{
+    text-align: center;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.761);
+    width: 600px;
+    margin: auto;
+}
 
+.ta1{
+    width: 600px;
+    height: 250px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.439);
+    border: 0.5px; 
+    position: relative;
+}
 
+h3{
+    text-align: center;
+    padding: 20px;
+}
+li{
+    margin: 20px 40px;
+    
+}
 
-
-
-
+.bttn{
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+}
+.chamada, h4{
+    color: #fff;
+    margin-top: 40px;
+    font-size: 1.3em;
+}
+.click{
+    font-weight: bold;
+    margin: 
+    50px;
+}
 
 
 
@@ -274,7 +319,7 @@ footer{
 
     main{
         width: 600px;
-        height: 2000px;
+        height: 2413px;
         margin: auto;
     }
     .vsl{
@@ -318,14 +363,37 @@ footer{
     
     }
 
+    .ta1{
+        width: 500px;
+        height: 250px;
+        background-color: #fff;
+        margin: auto;
+        margin-top: 40px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.439);
+        border: 0.5px; 
+        position: relative;
+    }
+    .copi3{
+        text-align: center;
+        font-weight: 550;
+        color: rgba(0, 0, 0, 0.761);
+        width: 500px;
+        margin: auto;
+    }
+
     footer{
         text-align: center;
         width: 600px;
         margin: auto;
-        margin-top: 40px;
         padding: 10px;
         color: rgb(0, 0, 0)
+        background-color: #777777a5;
 
+    }
+    .bttn{
+        position: absolute;
+        bottom: 10px;
+        left: 43%;
     }
 }
 
@@ -364,7 +432,7 @@ footer{
 
     main{
         width: 450px;
-        height: 2000px;
+        height: 2410px;;
         margin: auto;
 
     }
@@ -414,20 +482,43 @@ footer{
 .of{
     position: absolute;
     top: 35%;
-    left: 20%;
+    left: 17%;
     text-align: center;
     width: 100px;
     color: rgba(255, 255, 255, 0.733);
     font-size: 1.8em;
 }
 
+.ta1{
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.439);
+    border: 0.5px; 
+    position: relative;
+}
+.copi3{
+    text-align: center;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.761);
+    width: 400px;
+    margin: auto;
+}
+
     footer{
         text-align: center;
         width: 450px;
         margin: auto;
-        margin-top: 40px;
         padding: 10px;
         color: rgb(0, 0, 0);
+        background-color: #777777a5;
+    }
+    .bttn{
+        position: absolute;
+        bottom: 2px;
+        left: 41%;
     }
 }
 
