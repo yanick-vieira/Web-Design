@@ -62,7 +62,7 @@ form{
 
 main{
     width: 800px;
-    height: 600px;
+    height: 2000px;
     margin: auto;
 }
 
@@ -143,16 +143,107 @@ footer{
     margin-top: 25px;
 }
 
+.content{
+    border: 1px solid #00000057;
+    margin-top: 100px;
+}
 
+.copybooster{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
 
+.cta3{
+    text-align: center;
+    margin-top: 30px;
+    color: #FF160C;
+}
 
+.vsl3{
+     position: relative;
+     top: 25px;
+     left: 14.5%;
+}
 
+.ctanow{
+    text-align: center;
+    margin-top: 50px;
+}
 
+.ctabtn{
+    margin: 30px;
+}
 
+.assinar{
+    width: 500px;
+    height: 50px;
+    background-color:#FF160C;
+    margin: auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.439);
 
+}
+.assinar:active{
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    box-shadow: 0px 0px 0px black;
+}
 
+.comprar{
+    width: 300px;
+    background-color:#cfb53b;
+    margin: auto;
+    padding: 10px 10px;
+    font-size: 15px;
+    color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.439);
+}
+.comprar:active{
+    border: 1px solid rgba(0, 0, 0, 0.182);
+    box-shadow: 0px 0px 0px black;
+}
 
+.point{
+    border: 1px solid black;
+    height: 800px;
+   
+}
 
+.copi2{
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    position: relative;
+    top: 70px;
+}
+.rated{
+    width: 250px;
+    margin-left: 33.5%;
+
+}
+
+.pr{
+    background-color: 
+    rgba(128, 128, 128, 0.543);
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    margin-left:45px;
+    position: relative;
+    bottom: 55px;
+}
+
+.of{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    text-align: center;
+    width: 100px;
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 1.8em;
+}
 
 
 
@@ -183,7 +274,7 @@ footer{
 
     main{
         width: 600px;
-        height: 550px;
+        height: 2000px;
         margin: auto;
     }
     .vsl{
@@ -194,6 +285,11 @@ footer{
         top: 20px;
     
     }
+    .vsl3{
+        position: relative;
+        top: 25px;
+        left: 3%;
+   }
 
     .funnels{
         border: 1px solid black;
@@ -203,6 +299,23 @@ footer{
         margin-left: 10%;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.439);
         border: 0.5px;
+    }
+
+    .pr{
+        background-color: 
+        rgba(128, 128, 128, 0.543);
+        width: 185px;
+        height: 250px;
+        display: inline-block;
+        margin-left:9px;
+        position: relative;
+        bottom: 55px;
+    }
+
+    .rated{
+        width: 250px;
+        margin-left: 29%;
+    
     }
 
     footer{
@@ -251,7 +364,7 @@ footer{
 
     main{
         width: 450px;
-        height: 500px;
+        height: 2000px;
         margin: auto;
 
     }
@@ -263,6 +376,50 @@ footer{
         top: 20px;
     
     }
+    
+    .vsl3{
+        position: relative;
+        top: 25px;
+        left: 0%;
+        width: 450px;
+   }
+   .assinar{
+    width: 450px;
+    height: 50px;
+    background-color:#FF160C;
+    margin: auto;
+    padding: 15px 30px;
+    font-weight: 580;
+    font-size: 15px;
+    color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.439);
+
+}
+.pr{
+    background-color: 
+    rgba(128, 128, 128, 0.543);
+    width: 145px;
+    height: 230px;
+    display: inline-block;
+    margin-left:1px;
+    position: relative;
+    bottom: 55px;
+}
+
+.rated{
+    width: 250px;
+    margin-left: 20%;
+
+}
+.of{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    text-align: center;
+    width: 100px;
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 1.8em;
+}
 
     footer{
         text-align: center;
@@ -273,3 +430,4 @@ footer{
         color: rgb(0, 0, 0);
     }
 }
+
