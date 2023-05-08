@@ -80,6 +80,7 @@ main{
     margin-left: 20%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.439);
     border: 0.5px;
+    border-radius: 5px;
 }
 .funnels:active{
     box-shadow: 0px 0px 0px ; 
