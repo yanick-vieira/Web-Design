@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    width: 600px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header > h1:hover{
+    background-color: aliceblue;
+    color:blueviolet;
+    border-radius: 10px;
+    border: 0px solid blueviolet;
+}
+
+section{
+    position: relative;
+    top: 2px;
+    border-radius: 10px;
+}
+.show-up{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    color:blueviolet;
+    display: none;
+}
+li{
+    margin-bottom: 5px;
+}
+.click1:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.click1:active{
+    background-color: aliceblue;
+    color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+abbr{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.click2:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.click2:active{
+    background-color: aliceblue;
+    color: blueviolet;
+}
+
+.click3:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.click3:active{
+    background-color: aliceblue;
+    color: blueviolet;
+}
+
+.clicked{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header:hover > .show-up{
+    display: block;
+}
+
+main{
+    position: relative;
+    top: 50px;
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.awb{
+    margin-top: 50px;
+    padding: 10px 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
